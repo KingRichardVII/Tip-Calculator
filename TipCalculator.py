@@ -1,12 +1,16 @@
-#tip percentage
+# Richard Phan
+# 10/20/25
 
-def tip_calc (tip_perc, bill):
-    return tip_perc * bill / 100
+def tip_calc ():
+    tip_percent = float(input("Enter the tip percentage (%): "))
+    bill_dollars = float(input("Enter the bill amount ($): "))
+    tip_amount = tip_percent * bill_dollars / 100
+    print('Your tip  should be $' + str(tip_amount))
+    print('Your bills should be $' + str(tip_amount + bill_dollars))
 
-tip_percent = float(input("Enter the tip percentage (%): "))
-bill_dollars = float(input("Enter the bill amount ($): "))
+tip_calc()
 
-tip_amount = tip_calc(tip_percent, bill_dollars)
 
-print('Your tip  should be $' + str(tip_amount))
-print('Your bills should be $' + str(tip_amount + bill_dollars))
+
+
+
