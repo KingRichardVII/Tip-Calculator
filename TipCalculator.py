@@ -10,7 +10,12 @@ def tip_calc ():
 
 tip_calc()
 
+#Add input validation
+    #do not accept characters
+    #do not accept letters
+    #do not accept negative numbers
 
+#add interface app (front end)
 
 
 
