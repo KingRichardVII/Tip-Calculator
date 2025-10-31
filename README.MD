@@ -2,7 +2,7 @@
 
 ## By Richard Phan
 
-##FIXME- include data type check, input validation, and sample output.txt file
+##FIXME- include data type check, input validation, and sample_output.txt file testing edge cases
 
 ### Description
 A simple interactive Python script that helps users quickly calculate the 
@@ -28,3 +28,4 @@ Process finished with exit code 0
 
 
 ```
+
