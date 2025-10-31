@@ -2,6 +2,8 @@
 
 ## By Richard Phan
 
+##FIXME- include data type check, input validation, and sample output.txt file
+
 ### Description
 A simple interactive Python script that helps users quickly calculate the 
 appropriate tip amount and total bill for any dining experience.
@@ -23,5 +25,6 @@ Your tip should be $15.0
 Your total bill should be $115.0
 
 Process finished with exit code 0
+
 
 ```
